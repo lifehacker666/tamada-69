@@ -68,8 +68,10 @@
 
         if (scrollTopDocument >= $('header').height() ) {
             menuTop.addClass('fixed');
+            $('header').css('marginBottom', menuTop.height());
         } else {
             menuTop.removeClass('fixed');
+            $('header').css('marginBottom', 0);
         }
 
     });
@@ -95,7 +97,7 @@
 
     /* CSS3 анимации */
     var animations = {
-        "animated-block1":{
+        "animated-block-index":{
             //скролл сверху вниз CSS3
             down:function($this){
                 $this.find('.spisok-uslug li')
@@ -108,11 +110,11 @@
             },
             //скролл сверху вниз IE9
             ie9Down:function($this){
-                notAnimate($this.find('h2, .content > .text, .items-container .item'));
+                notAnimate($this.find('.spisok-uslug li, .zakaz-block'));
             },
             //скролл сверху вниз IE8
             ie8Down:function($this){
-                notAnimate($this.find('h2, .content > .text, .items-container .item'));
+                notAnimate($this.find('.spisok-uslug li, .zakaz-block'));
             },
 
             //скролл снизу вверх CSS3
@@ -127,39 +129,126 @@
             },
             //скролл снизу вверх IE9
             ie9Up:function($this){
-                notAnimate($this.find('h2, .content > .text, .items-container .item'));
+                notAnimate($this.find('.spisok-uslug li, .zakaz-block'));
             },
             //скролл снизу вверх IE8
             ie8Up:function($this){
-                notAnimate($this.find('h2, .content > .text, .items-container .item'));
+                notAnimate($this.find('.spisok-uslug li, .zakaz-block'));
+            }
+        },
+        "animated-block-table":{
+            //скролл сверху вниз CSS3
+            down:function($this){
+                $this.find('.colomn.one')
+                    .removeClass('fadeOut')
+                    .addClass('fadeInLeft');
+
+                $this.find('.colomn.two')
+                    .removeClass('fadeOut')
+                    .addClass('fadeInRight');
+            },
+            //скролл сверху вниз IE9
+            ie9Down:function($this){
+                notAnimate($this.find('.colomn.one, .colomn.two'));
+            },
+            //скролл сверху вниз IE8
+            ie8Down:function($this){
+                notAnimate($this.find('.colomn.one, .colomn.two'));
+            },
+
+            //скролл снизу вверх CSS3
+            up:function($this){
+                $this.find('.colomn.one')
+                    .removeClass('fadeInLeft')
+                    .addClass('fadeOut');
+
+                $this.find('.colomn.two')
+                    .removeClass('fadeInRight')
+                    .addClass('fadeOut');
+            },
+            //скролл снизу вверх IE9
+            ie9Up:function($this){
+                notAnimate($this.find('.colomn.one, .colomn.two'));
+            },
+            //скролл снизу вверх IE8
+            ie8Up:function($this){
+                notAnimate($this.find('.colomn.one, .colomn.two'));
+            }
+        },
+        "animated-block-footer":{
+            //скролл сверху вниз CSS3
+            down:function($this){
+                $this.find('.socials, .phone, .copyright')
+                    .removeClass('fadeOut')
+                    .addClass('fadeInUp');
+            },
+            //скролл сверху вниз IE9
+            ie9Down:function($this){
+                notAnimate($this.find('.socials, .phone, .copyright'));
+            },
+            //скролл сверху вниз IE8
+            ie8Down:function($this){
+                notAnimate($this.find('.socials, .phone, .copyright'));
+            },
+
+            //скролл снизу вверх CSS3
+            up:function($this){
+                $this.find('.socials, .phone, .copyright')
+                    .removeClass('fadeInUp')
+                    .addClass('fadeOut');
+            },
+            //скролл снизу вверх IE9
+            ie9Up:function($this){
+                notAnimate($this.find('.socials, .phone, .copyright'));
+            },
+            //скролл снизу вверх IE8
+            ie8Up:function($this){
+                notAnimate($this.find('.socials, .phone, .copyright'));
+            }
+        },
+        "animated-block-contact":{
+            //скролл сверху вниз CSS3
+            down:function($this){
+                $this.find('.contacts.one')
+                    .removeClass('fadeOutLeftBig')
+                    .addClass('fadeInLeftBig');
+
+                $this.find('.contacts.two')
+                    .removeClass('fadeOutRightBig')
+                    .addClass('fadeInRightBig');
+            },
+            //скролл сверху вниз IE9
+            ie9Down:function($this){
+                notAnimate($this.find('.contacts.one, .contacts.two'));
+            },
+            //скролл сверху вниз IE8
+            ie8Down:function($this){
+                notAnimate($this.find('.contacts.one, .contacts.two'));
+            },
+
+            //скролл снизу вверх CSS3
+            up:function($this){
+                $this.find('.contacts.one')
+                    .removeClass('fadeInLeftBig')
+                    .addClass('fadeOutLeftBig');
+
+                $this.find('.contacts.two')
+                    .removeClass('fadeInRightBig')
+                    .addClass('fadeOutRightBig');
+            },
+            //скролл снизу вверх IE9
+            ie9Up:function($this){
+                notAnimate($this.find('.contacts.one, .contacts.two'));
+            },
+            //скролл снизу вверх IE8
+            ie8Up:function($this){
+                notAnimate($this.find('.contacts.one, .contacts.two'));
             }
         },
         "example":{
             //скролл сверху вниз CSS3
             down:function($this){
-                $this.find('h2, .content > .text')
-                    .removeClass('fadeOut')
-                    .addClass('fadeInDown');
 
-                $this.find('.items-container .item').eq(0)
-                    .removeClass('fadeOut')
-                    .addClass('fadeInDown');
-
-                $this.find('.items-container .item').eq(1)
-                    .removeClass('fadeOut')
-                    .addClass('fadeInUp');
-
-                $this.find('.items-container .item').eq(2)
-                    .removeClass('fadeOut')
-                    .addClass('fadeInDown');
-
-                $this.find('.items-container .item').eq(3)
-                    .removeClass('fadeOut')
-                    .addClass('fadeInUp');
-
-                $this.find('.items-container .item').eq(4)
-                    .removeClass('fadeOut')
-                    .addClass('fadeInDown');
             },
             //скролл сверху вниз IE9
             ie9Down:function($this){
@@ -172,29 +261,7 @@
 
             //скролл снизу вверх CSS3
             up:function($this){
-                $this.find('h2, .content > .text')
-                    .removeClass('fadeInDown')
-                    .addClass('fadeOut');
 
-                $this.find('.items-container .item').eq(0)
-                    .removeClass('fadeInDown')
-                    .addClass('fadeOut');
-
-                $this.find('.items-container .item').eq(1)
-                    .removeClass('fadeInUp')
-                    .addClass('fadeOut');
-
-                $this.find('.items-container .item').eq(2)
-                    .removeClass('fadeInDown')
-                    .addClass('fadeOut');
-
-                $this.find('.items-container .item').eq(3)
-                    .removeClass('fadeInUp')
-                    .addClass('fadeOut');
-
-                $this.find('.items-container .item').eq(4)
-                    .removeClass('fadeInDown')
-                    .addClass('fadeOut');
             },
             //скролл снизу вверх IE9
             ie9Up:function($this){
@@ -208,7 +275,7 @@
     };
 
     //подключаем waypoint к блоку, в котором находятся анимируемые эл-ты
-    $('#animated-block1')
+    $('.index-block')
         //оффсет 80%
         .waypoint( function (dir) {
 
@@ -238,27 +305,117 @@
             }
         });
 
+    $('.table-block')
+        //оффсет 80%
+        .waypoint( function (dir) {
+
+            if (dir === 'down') { //скролл сверху вниз
+                differentBrowsersDown($(this));
+            }
+            else { //скролл снизу вверх
+                differentBrowsersUp($(this));
+            }
+
+        }, {
+            offset: '80%'
+        })
+        //350px от нижнего края
+        .waypoint( function (dir) {
+
+            if (dir === 'down') { //скролл вниз
+                differentBrowsersUp($(this));
+            }
+            else { //скролл вверх
+                differentBrowsersDown($(this));
+            }
+
+        }, {
+            offset: function() {
+                return -$(this).outerHeight();
+            }
+        });
+
+    $('.contact-block')
+        //оффсет 80%
+        .waypoint( function (dir) {
+
+            if (dir === 'down') { //скролл сверху вниз
+                differentBrowsersDown($(this));
+            }
+            else { //скролл снизу вверх
+                differentBrowsersUp($(this));
+            }
+
+        }, {
+            offset: '80%'
+        })
+        //350px от нижнего края
+        .waypoint( function (dir) {
+
+            if (dir === 'down') { //скролл вниз
+                differentBrowsersUp($(this));
+            }
+            else { //скролл вверх
+                differentBrowsersDown($(this));
+            }
+
+        }, {
+            offset: function() {
+                return -$(this).outerHeight();
+            }
+        });
+
+    $('footer')
+        //оффсет 80%
+        .waypoint( function (dir) {
+
+            if (dir === 'down') { //скролл сверху вниз
+                differentBrowsersDown($(this));
+            }
+            else { //скролл снизу вверх
+                differentBrowsersUp($(this));
+            }
+
+        }, {
+            offset: '100%'
+        })
+        //350px от нижнего края
+        .waypoint( function (dir) {
+
+            if (dir === 'down') { //скролл вниз
+                differentBrowsersUp($(this));
+            }
+            else { //скролл вверх
+                differentBrowsersDown($(this));
+            }
+
+        }, {
+            offset: function() {
+                return -$(this).outerHeight();
+            }
+        });
+
     // вызов функций анимации в зависимости от возможностей браузера (down)
     function differentBrowsersDown($this){
         if (Modernizr.cssanimations) {
-            animations[$this.attr("id")].down($this);
+            animations[$this.attr("data-key")].down($this);
 
         } else if (Modernizr.opacity)  {
-            animations[$this.attr("id")].ie9Down($this);
+            animations[$this.attr("data-key")].ie9Down($this);
         } else {
-            animations[$this.attr("id")].ie8Down($this);
+            animations[$this.attr("data-key")].ie8Down($this);
         }
     }
 
     // вызов функций анимации в зависимости от возможностей браузера (up)
     function differentBrowsersUp($this){
         if (Modernizr.cssanimations) {
-            animations[$this.attr("id")].up($this);
+            animations[$this.attr("data-key")].up($this);
 
         } else if (Modernizr.opacity)  {
-            animations[$this.attr("id")].ie9Up($this);
+            animations[$this.attr("data-key")].ie9Up($this);
         } else {
-            animations[$this.attr("id")].ie8Up($this);
+            animations[$this.attr("data-key")].ie8Up($this);
         }
     }
 
@@ -274,6 +431,14 @@
             $('header .logo img').addClass('flip');
         }, 100);
     }, 15000);
+
+    //header phone
+    setInterval(function() {
+        $('header .phone img').removeClass('wobble');
+        setTimeout(function() {
+            $('header .phone img').addClass('wobble');
+        }, 100);
+    }, 7000);
     /* /CSS3 анимации */
 
 }); // END READY

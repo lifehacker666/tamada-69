@@ -348,16 +348,14 @@ header .contacts .phone{
     color: #000000;
     margin: 11px 0 0 0;
     text-align: left;
-    left: 28px;
 }
 
-header .contacts .phone:before{
-    content: url('../img/phone.png');
-    width: 35px;
-    height: 28px;
-    position: absolute;
+header .contacts .phone img{
+    position: relative;
     top: 1px;
-    left: -38px;
+    visibility: visible!important;
+    -webkit-animation-duration: 0.6s;
+    animation-duration:  0.6s;
 }
 
 header .contacts span{
@@ -526,7 +524,7 @@ header .contacts span{
     position: relative;
     display: block;
     width: 440px;
-    height: 248px;
+    height: 244px;
 
     -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.75);
     -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.75);
@@ -535,7 +533,7 @@ header .contacts span{
 
 .catalog .item .img-container img {
     max-width: 440px;
-    max-height: 248px;
+    max-height: 244px;
     position: absolute;
     top: 0;
     left: 0;
@@ -643,15 +641,31 @@ footer .copyright{
     float: right;
     margin: 40px 0 0 0;
 }
+
+footer .socials.fadeInUp{
+    -webkit-animation-duration: 0.4s;
+    animation-duration:  0.4s;
+}
+
+footer .phone.fadeInUp{
+    -webkit-animation-duration: 0.4s;
+    animation-duration:  0.4s;
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+footer .copyright.fadeInUp{
+    -webkit-animation-duration: 0.4s;
+    animation-duration:  0.4s;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
 /*---------/FOOTER------------*/
 
 
 /*---------INDEX PAGE------------*/
 .index-block .content{
-    position: relative;
-    padding: 0;
-    width: 996px;
-    height: 225px;
+    padding: 20px 30px;
     background-color: #efefef;
     background-image: -webkit-linear-gradient(top, #f5f5f5 54%, #e5e5e5 94%);
     background-image: -moz-linear-gradient(top, #f5f5f5 54%, #e5e5e5 94%);
@@ -675,11 +689,13 @@ footer .copyright{
 
 .spisok-uslug h2{
     text-align: center;
+    padding: 7px 0 19px 0;
 }
 
 .index-block ul.style1{
     float: left;
-    margin: 0 0 0 78px;
+    margin: 0 49px 0 0;
+    padding-left: 38px;
 }
 
 ul.style1{
@@ -745,7 +761,6 @@ ul.style1.two li:nth-child(3){
 
 
 .zakaz-block{
-    margin: 22px 0 0 84px;
     width: 316px;
     padding: 24px 0 32px 0;
     text-align: center;
@@ -852,49 +867,49 @@ ul.style1.two li:nth-child(3){
 
 
 /*---------DJ PAGE------------*/
-.dj .table-block{
+.table-block{
     margin-bottom: 50px;
 }
 
-.dj .table-block .colomn{
+.dj-page .table-block .colomn{
     vertical-align: middle;
     font-size: 25px;
 
     text-transform: uppercase;
 }
 
-.dj .table-block .colomn p{
+.dj-page .table-block .colomn p{
     width: 470px;
     line-height: 35px;
     text-align: center;
 }
 
-.dj .style1{
+.dj-page .style1{
     font-size: 20px;
     text-transform: none;
 }
 
-.dj ul.style1 li:before{
+.dj-page ul.style1 li:before{
     top: -3px;
 }
 /*---------/DJ PAGE------------*/
 
 
 /*---------HARDWARE PAGE------------*/
-.hardware .table-block{
+.hardware-page .table-block{
     margin-bottom: 50px;
     display: table;
     width: 100%;
 }
 
-.hardware .table-block .colomn{
+.hardware-page .table-block .colomn{
     vertical-align: middle;
     font-size: 25px;
 
     text-transform: uppercase;
 }
 
-.hardware .table-block .colomn p{
+.hardware-page .table-block .colomn p{
     width: 470px;
     line-height: 35px;
     text-align: center;
