@@ -7,9 +7,10 @@
 
 
     /* Активный пункт меню */
-    $('.menu-top ul > li').click(function() {
-        $(this).parent().find('.selected').removeClass("selected");
-        $(this).addClass("selected");
+    $('.menu-top ul > li > a').each(function() {
+        if ('http://tamada-69.ru'+$(this).attr('href') == window.location.href){
+            $(this).parent().addClass('selected');
+        }
     });
     /* /Активный пункт меню */
 
