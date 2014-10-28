@@ -77,7 +77,7 @@
                 </div>
                 <div class="zakaz-block animated">
                     Вам нужен тамада или ведущий?
-                    <a href="/contact.html" class="button open-popup">Организовать праздник</a>
+                    <a href="/contact.php" class="button open-popup">Организовать праздник</a>
                 </div>
                 <div class="block1-bg"></div>
             </div>
