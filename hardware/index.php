@@ -1,7 +1,9 @@
 <?
     $title = 'Аппаратура для тамады';
+    $keywords = 'свадебное оборудование, аппаратура для организации праздника';
+    $description = 'оборудование для организации праздников, которое использует энергичный тамада Виктор';
     $page_name = 'hardware-page';
-    include "templates/header.php";
+    include "../templates/header.php";
 ?>
 
 <!--center-block-->
@@ -50,4 +52,4 @@
    </div>
 </div>
 
-<? include "templates/footer.php"; ?>
+<? include "../templates/footer.php"; ?>

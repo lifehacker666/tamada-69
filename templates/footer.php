@@ -17,8 +17,10 @@
            <div class="phone animated">+7-960-715-82-65</div>
            <div class="copyright animated">© <?=date('Y'); ?></div>
        </div>
+
        <!-- STANDART -->
        <script src="/js/lib/waypoints.min.js"></script>
+       <script src="/js/lib/waypoints-sticky.min.js"></script>
        <script src="/js/lib/modernizr.custom.js"></script>
        <script>
            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

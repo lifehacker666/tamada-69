@@ -60,23 +60,27 @@
     }
     /* /Динамическое подключение fancybox */
 
+    ///* фиксированное верхнее меню */
+    //var menuTop = $('.menu-top-container'),
+    //    scrollTopDocument = $(document).scrollTop();
+    //
+    //$(document).scroll(function() {
+    //    scrollTopDocument = $(document).scrollTop();
+    //
+    //    if (scrollTopDocument >= $('header').height() ) {
+    //        menuTop.addClass('fixed');
+    //        $('header').css('marginBottom', menuTop.height());
+    //    } else {
+    //        menuTop.removeClass('fixed');
+    //        $('header').css('marginBottom', 0);
+    //    }
+    //
+    //});
+    ///* /фиксированное верхнее меню */
     /* фиксированное верхнее меню */
-    var menuTop = $('.menu-top-container'),
-        scrollTopDocument = $(document).scrollTop();
-
-    $(document).scroll(function() {
-        scrollTopDocument = $(document).scrollTop();
-
-        if (scrollTopDocument >= $('header').height() ) {
-            menuTop.addClass('fixed');
-            $('header').css('marginBottom', menuTop.height());
-        } else {
-            menuTop.removeClass('fixed');
-            $('header').css('marginBottom', 0);
-        }
-
-    });
+    $('.menu-top-container').waypoint('sticky');
     /* /фиксированное верхнее меню */
+
 
     /* кнопка Наверх */
     $(function() {

@@ -366,12 +366,12 @@ header .contacts span{
 
 /*---------MENU-TOP------------*/
 /*---------/core menu top------------*/
-.menu-top-container.fixed{
+.menu-top-container.stuck {
     position: fixed;
-    left: 0;
     top: 0;
+    left: 0;
     width: 100%;
-    z-index: 97;
+    z-index: 1;
 }
 
 .menu-top-container .content{
