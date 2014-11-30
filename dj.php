@@ -3,7 +3,7 @@
     $keywords = 'музыка на свадьбе, музыкальное оформление свадьбы, первый танец';
     $description = 'музыкальное оформление свадьбы';
     $page_name = 'dj-page';
-    include "../templates/header.php";
+    include "templates/header.php";
 ?>
 
 <!--center-block-->
@@ -42,4 +42,4 @@
    </div>
 </div>
 
-<? include "../templates/footer.php"; ?>
+<? include "templates/footer.php"; ?>

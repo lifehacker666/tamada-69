@@ -2,7 +2,7 @@
     $title = 'Свадебные фото';
     $keywords = 'Фотографии с праздников - энергичный тамада Виктор';
     $description = 'Множество фотографий с праздников, которые проводил энергичный тамада Виктор';
-    include "../templates/header.php";
+    include "templates/header.php";
 ?>
 
 <!--center-block-->
@@ -74,4 +74,4 @@
    </div>
 </div>
 
-<? include "../templates/footer.php"; ?>
+<? include "templates/footer.php"; ?>

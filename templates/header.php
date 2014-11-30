@@ -49,10 +49,10 @@
                 <img class="menu-top-right" src="/img/menu-top-right.png" alt=""/>
                 <ul>
                     <li><a href="/">Главная</a></li><!--
-                       --><li><a href="/dj/">Ди-джей</a> </li><!--
-                       --><li><a href="/gallery/">Свадебные фото</a></li><!--
-                       --><li><a href="/hardware/">Аппаратура</a></li><!--
-                       --><li><a href="/contact/">Контакты</a></li><!--
+                       --><li><a href="/dj.php">Ди-джей</a> </li><!--
+                       --><li><a href="/gallery.php">Свадебные фото</a></li><!--
+                       --><li><a href="/hardware.php">Аппаратура</a></li><!--
+                       --><li><a href="/contact.php">Контакты</a></li><!--
                        --><li class="helper"></li> <!-- доп элемент для выравнивания по ширине -->
                 </ul>
             </nav>
@@ -79,7 +79,7 @@
                 </div>
                 <div class="zakaz-block animated">
                     Вам нужен тамада или ведущий?
-                    <a href="/contact" class="button open-popup">Организовать праздник</a>
+                    <a href="/contact.php" class="button open-popup">Организовать праздник</a>
                 </div>
                 <div class="block1-bg"></div>
             </div>
