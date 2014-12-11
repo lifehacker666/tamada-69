@@ -60,6 +60,27 @@
     </div>
 
     <? if ( $page_name == 'index-page'){ ?>
+    <!--akciya-->
+    <div class="content-wraper akciya">
+        <div class="content">
+            <div>
+                <a href="/contact.php" class="akciya-container">
+                    <div class="title1">Близится Новый год!!!</div>
+                    <div class="title2">Самое время обрести волшебное настроение и поверить в сказку.</div>
+                    <p>Мы поможем организовать новогоднее торжество, которое надолго запомнится и Вам и Вашему
+                        ребенку.</p>
+
+                    <p>Вас ждут специальные <b>зимние конкурсы</b>, костюмированное шоу с <b>Дедом Морозом</b>, а также
+                        многое другое!
+                        Да и <b>сыграть свадьбу</b> зимой - незабываемое ощущение!</p>
+
+                    <p class="text-p">Торопитесь, у нас идет <b>предновогодняя акция</b>:<br>
+                        проводятся эконом-программы по цене <b>от 1700 р./час</b> !!!</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
     <!--index-block-->
     <div class="content-wraper index-block" data-key="animated-block-index">
         <div class="content">
@@ -85,6 +106,7 @@
             </div>
         </div>
     </div>
+
     <?php } ?>
 
     <!--content-->
