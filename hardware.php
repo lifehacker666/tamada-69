@@ -8,7 +8,7 @@
 
 <!--center-block-->
 <div class="floatblock center-full">
-   <h1>Аппаратура</h1>
+   <h1>Аппаратура для праздника</h1>
 
    <div class="table-block" data-key="animated-block-table">
        <div class="colomn one animated">

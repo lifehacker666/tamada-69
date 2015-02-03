@@ -49,7 +49,9 @@
                 <img class="menu-top-right" src="/img/menu-top-right.png" alt=""/>
                 <ul>
                     <li><a href="/">Главная</a></li><!--
-                       --><li><a href="/dj.php">Ди-джей</a> </li><!--
+                       --><li><a href="/about.php">О себе</a></li><!--
+                       --><li><a href="/price.php">Цены</a></li><!--
+                       --><li><a href="/dj.php">Ди-джей</a></li><!--
                        --><li><a href="/gallery.php">Свадебные фото</a></li><!--
                        --><li><a href="/hardware.php">Аппаратура</a></li><!--
                        --><li><a href="/contact.php">Контакты</a></li><!--
@@ -91,16 +93,18 @@
                         <li class="animated">Свадьбы</li>
                         <li class="animated">Дни рождения и юбилеи</li>
                         <li class="animated">Корпоративные вечера</li>
+                        <li class="animated">Детские мероприятия</li>
                     </ul>
                     <ul class="style1 two">
                         <li class="animated">Вечеринки</li>
                         <li class="animated">Новогодние праздники</li>
-                        <li class="animated">Детские мероприятия</li>
+                        <li class="animated">День защитника Отечества</li>
+                        <li class="animated">Международный Женский день</li>
                     </ul>
                 </div>
                 <div class="zakaz-block animated">
-                    Вам нужен тамада или ведущий?
-                    <a href="/contact.php" class="button open-popup">Организовать праздник</a>
+                    Вам нужен тамада или ведущий на праздник?
+                    <a href="/contact.php" class="button open-popup">Организовать праздник !!!</a>
                 </div>
                 <div class="block1-bg"></div>
             </div>

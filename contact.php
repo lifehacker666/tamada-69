@@ -7,7 +7,7 @@
 
 <!--center-block-->
 <div class="floatblock center-full clearfix contact-block" data-key="animated-block-contact">
-    <h1>Контакты</h1>
+    <h1>Как со мной связаться</h1>
    <div class="zakaz-block one contacts animated" style="float: left;">
        Звоните по телефону в Твери:
        <div class="button">+7-960-715-82-65</div>
