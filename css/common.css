@@ -661,6 +661,11 @@ footer .copyright.fadeInUp{
     -webkit-animation-delay: 0.4s;
     animation-delay: 0.4s;
 }
+
+footer .counter{
+    float: left;
+    margin: 31px 0 0 117px;
+}
 /*---------/FOOTER------------*/
 
 
@@ -964,16 +969,15 @@ ul.style1.two li:nth-child(4){
 }
 
 .akciya .content{
-    display: none;
-    padding: 31px 30px;
-    background: url('../img/akciya.jpg');
+    padding: 81px 30px;
+    background: url('../img/akciya2.jpg');
 }
 
 .akciya-container{
     width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background: rgba(37, 83, 255, 0.80);
+    background: rgba(47, 153, 255, 0.80);
     border-radius: 20px;
     display: block;
     color: #fff;
@@ -985,7 +989,7 @@ ul.style1.two li:nth-child(4){
 }
 
 .akciya .title1{
-    font-size: 36px;
+    font-size: 33px;
     line-height: normal;
     text-transform: uppercase;
     text-align: center;
@@ -995,6 +999,8 @@ ul.style1.two li:nth-child(4){
     font-size: 18px;
     margin-bottom: 15px;
     text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
 }
 
 .akciya p{
