@@ -32,7 +32,7 @@
                 <div class="text">Энергичный тамада<br> Виктор</div>
             </a>
             <div class="contacts">
-                <span>Звоните!</span> с 9 до 23 без выходных!
+                <span>Звоните!</span> с 9 до 22 без выходных!
                 <div class="phone">
                     <img class="animated" src="/img/phone.png" alt=""/>
                     +7-960-715-82-65
