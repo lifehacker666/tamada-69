@@ -6,12 +6,16 @@
 ?>
 
 <!--center-block-->
-<div class="floatblock center-full clearfix contact-block" data-key="animated-block-contact">
-    <h1>Контакты</h1>
+<div class="floatblock center-full clearfix contact-block" data-key="animated-block-contact" itemscope itemtype='http://schema.org/LocalBusiness'>
+    <meta itemprop='name' content='Энергичный тамада в Твери - Виктор'>
+    <span itemprop='address' itemscope itemtype='http://schema.org/PostalAddress'>
+        <meta itemprop='addressLocality' content='Тверь'>
+    </span>
+    <h1>Как со мной связаться</h1>
    <div class="zakaz-block one contacts animated" style="float: left;">
        Звоните по телефону в Твери:
-       <div class="button">+7-960-715-82-65</div>
-       с 9 до 23 без выходных
+       <div class="button" itemprop='telephone'>+7-960-715-82-65</div>
+      <span itemprop='openingHours' datetime='Mo-Su 9:00-22:00'>с 9 до 22 без выходных</span>
    </div>
    <div class="zakaz-block two contacts animated" style="float: right">
        Мы в социальных сетях:

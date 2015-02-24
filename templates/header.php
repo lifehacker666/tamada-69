@@ -32,7 +32,7 @@
                 <div class="text">Энергичный тамада<br> Виктор</div>
             </a>
             <div class="contacts">
-                <span>Звоните!</span> с 9 до 23 без выходных!
+                <span>Звоните!</span> с 9 до 22 без выходных!
                 <div class="phone">
                     <img class="animated" src="/img/phone.png" alt=""/>
                     +7-960-715-82-65
@@ -49,7 +49,9 @@
                 <img class="menu-top-right" src="/img/menu-top-right.png" alt=""/>
                 <ul>
                     <li><a href="/">Главная</a></li><!--
-                       --><li><a href="/dj.php">Ди-джей</a> </li><!--
+                       --><li><a href="/about.php">О себе</a></li><!--
+                       --><li><a href="/price.php">Цены</a></li><!--
+                       --><li><a href="/dj.php">Ди-джей</a></li><!--
                        --><li><a href="/gallery.php">Свадебные фото</a></li><!--
                        --><li><a href="/hardware.php">Аппаратура</a></li><!--
                        --><li><a href="/contact.php">Контакты</a></li><!--
@@ -65,17 +67,9 @@
         <div class="content">
             <div>
                 <a href="/contact.php" class="akciya-container">
-                    <div class="title1">Близится Новый год!!!</div>
-                    <div class="title2">Самое время обрести волшебное настроение и поверить в сказку.</div>
-                    <p>Мы поможем организовать новогоднее торжество, которое надолго запомнится и Вам и Вашему
-                        ребенку.</p>
-
-                    <p>Вас ждут специальные <b>зимние конкурсы</b>, костюмированное шоу с <b>Дедом Морозом</b>, а также
-                        многое другое!
-                        Да и <b>сыграть свадьбу</b> зимой - незабываемое ощущение!</p>
-
-                    <p class="text-p">Торопитесь, у нас идет <b>предновогодняя акция</b>:<br>
-                        проводятся эконом-программы по цене <b>от 1700 р./час</b> !!!</p>
+                    <div class="title1">Поздравляем посетителей сайта с грядущими праздниками:</div>
+                    <div class="title2">Днем Защитника Отечества и Международным Женским днем!</div>
+                    <p>Закажите наши услуги на праздник и сделайте впечатления от него незабываемыми!</p>
                 </a>
             </div>
         </div>
@@ -91,16 +85,18 @@
                         <li class="animated">Свадьбы</li>
                         <li class="animated">Дни рождения и юбилеи</li>
                         <li class="animated">Корпоративные вечера</li>
+                        <li class="animated">Детские мероприятия</li>
                     </ul>
                     <ul class="style1 two">
                         <li class="animated">Вечеринки</li>
                         <li class="animated">Новогодние праздники</li>
-                        <li class="animated">Детские мероприятия</li>
+                        <li class="animated">День защитника Отечества</li>
+                        <li class="animated">Международный Женский день</li>
                     </ul>
                 </div>
                 <div class="zakaz-block animated">
-                    Вам нужен тамада или ведущий?
-                    <a href="/contact.php" class="button open-popup">Организовать праздник</a>
+                    Вам нужен тамада или ведущий на праздник?
+                    <a href="/contact.php" class="button open-popup">Организовать праздник !!!</a>
                 </div>
                 <div class="block1-bg"></div>
             </div>
