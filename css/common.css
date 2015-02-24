@@ -691,6 +691,7 @@ footer .counter{
 
 .spisok-uslug{
     float: left;
+    width: 611px;
 }
 
 .spisok-uslug h2{
@@ -700,8 +701,14 @@ footer .counter{
 
 .index-block ul.style1{
     float: left;
-    margin: 0 34px 0 0;
-    padding-left: 38px;
+    margin: 0 46px 0 0;
+    padding-left: 22px;
+    width: 219px;
+}
+
+.index-block ul.style1.two {
+    width: 270px;
+    margin: 0;
 }
 
 ul.style1{
@@ -781,7 +788,7 @@ ul.style1.two li:nth-child(4){
 
 
 .zakaz-block{
-    width: 316px;
+    width: 313px;
     margin-top: 21px;
     padding: 24px 0 32px 0;
     text-align: center;
@@ -836,7 +843,7 @@ ul.style1.two li:nth-child(4){
 
 .block2 .left-part{
     float: left;
-    margin: 0 70px 0 0;
+    margin: 0 47px 0 0;
     width: 597px;
     line-height: 20px;
 }
@@ -860,6 +867,7 @@ ul.style1.two li:nth-child(4){
 
 .block2 .right-part{
     float: left;
+    width: 287px;
 }
 
 .block2 .right-part ul{
@@ -969,7 +977,7 @@ ul.style1.two li:nth-child(4){
 }
 
 .akciya .content{
-    padding: 81px 30px;
+    padding: 48px 30px;
     background: url('../img/akciya2.jpg');
 }
 
@@ -1004,7 +1012,8 @@ ul.style1.two li:nth-child(4){
 }
 
 .akciya p{
-    text-align: justify;
+    text-align: center;
+    font-size: 17px;
 }
 
 .akciya  .text-p{
