@@ -48,14 +48,20 @@
                 <img class="menu-top-left" src="/img/menu-top-left.png" alt=""/>
                 <img class="menu-top-right" src="/img/menu-top-right.png" alt=""/>
                 <ul>
-                    <li><a href="/">Главная</a></li><!--
-                       --><li><a href="/about.php">О себе</a></li><!--
-                       --><li><a href="/price.php">Цены</a></li><!--
-                       --><li><a href="/dj.php">Ди-джей</a></li><!--
-                       --><li><a href="/gallery.php">Свадебные фото</a></li><!--
-                       --><li><a href="/hardware.php">Аппаратура</a></li><!--
-                       --><li><a href="/contact.php">Контакты</a></li><!--
-                       --><li class="helper"></li> <!-- доп элемент для выравнивания по ширине -->
+                    <li><a href="/">Главная</a></li>
+                       <li><a href="/about.php">О себе</a></li>
+                       <li><a href="/price.php">Цены</a></li>
+                       <li><a href="/dj.php">Ди-джей</a></li>
+                       <li><a href="/reviews.php">Отзывы</a></li>
+                       <li>
+                            <a href="/info.php">Информация</a>
+                             <ul>
+                                 <li><a href="/hardware.php">Аппаратура</a></li>
+                                 <li><a href="/gallery.php">Свадебные фото</a></li>
+                             </ul>
+                        </li>
+                       <li><a href="/contact.php">Контакты</a></li>
+                       <li class="helper"></li> <!-- доп элемент для выравнивания по ширине -->
                 </ul>
             </nav>
         </div>

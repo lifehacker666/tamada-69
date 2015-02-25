@@ -410,7 +410,8 @@ header .contacts span{
 .menu-top > ul{
     line-height: 0;
     font-size: 1px;
-    text-align: center;
+    text-align: justify;
+    padding: 0 45px;
     background: url('../img/menu-top-centert.png');
 }
 
@@ -436,10 +437,11 @@ header .contacts span{
 }
 
 .menu-top ul li ul{
-    display:none;
-    position:absolute;
-    width:120px;
-    left: 0;
+    display: none;
+    position: absolute;
+    min-width: 100%;
+    left: -3px;
+    white-space: nowrap;
 }
 .menu-top ul li:hover ul{display:block}
 /*---------/core menu top------------*/
@@ -449,7 +451,7 @@ header .contacts span{
     text-align:center;
 }
 
-.menu-top > ul > li:hover a{
+.menu-top > ul > li:hover > a{
     text-decoration: none;
 }
 .menu-top > ul > li.selected a{
@@ -460,30 +462,34 @@ header .contacts span{
     display: block;
     padding: 11px 5px;
     font-size: 20px;
-    margin: 0 17px;
     color: #fff;
 }
 /*---------/main menu-top------------*/
 
 /*---------sub menu-top------------*/
 .menu-top ul li ul{
-    background-color:#ffffff;
-    border:1px solid #E8E8E8;
+    background-color: #ED3000;
+    padding: 0 0 5px 0;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    -webkit-box-shadow: 0px 3px 4px 1px rgba(9, 9, 9, 0.45);
+    -moz-box-shadow: 0px 3px 4px 1px rgba(9, 9, 9, 0.45);
+    box-shadow: 0px 3px 4px 1px rgba(9, 9, 9, 0.45);
 }
 
 .menu-top ul li ul li{
     text-align:left;
-    padding:5px 5px 5px 15px;
 }
 
 .menu-top ul li ul li a{
-    font-size: 20px;
+    font-size: 18px;
     color: #fff;
-    text-decoration:none;
+    display: block;
+    padding: 5px 10px;
 }
 
 .menu-top ul li ul li a:hover{
-    color:#553CCF;
+
 }
 /*---------/sub menu-top------------*/
 /*---------/MENU-TOP------------*/
@@ -552,13 +558,64 @@ header .contacts span{
 
 .catalog .item .name{
     display: block;
-    margin: 5px 0 0 0 ;
+    margin: 9px 0 0 0;
+    text-transform: uppercase;
 }
 
 .catalog.one .catalog-container{
     text-align: center;
 }
 /*---------/CATALOG------------*/
+
+
+/*---------FAQ------------*/
+.faq-container{
+    margin-top: 20px;
+}
+
+.faq .faq-container .item {
+    position: relative;
+    margin: 0 0 20px 0;
+}
+
+.faq. faq-container .item .name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #777;
+}
+
+.faq .faq-container .item .date {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #333;
+    font-weight: bold;
+}
+
+.faq .faq-container .item .question {
+    margin: 25px 0 10px 0;
+    padding: 20px 40px 20px 40px;
+    background: #eee;
+    border-radius: 6px;
+}
+
+.faq .faq-container .item .answer {
+    padding: 20px 40px;
+    margin-left: 30px;
+    background: #eee;
+    border-radius: 6px;
+}
+
+.faq .faq-container .item .answer p, .faq .faq-container .item .question p{
+    margin: 0 5px;
+}
+
+.faq textarea{
+    width: 450px;
+    height: 100px;
+}
+/*---------/FAQ------------*/
 
 
 /*---------SOCIALS------------*/
