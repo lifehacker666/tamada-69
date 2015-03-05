@@ -16,7 +16,7 @@
     <!-- /STANDART -->
 
     <!-- UNIQUE -->
-    <link rel="stylesheet" href="/css/common.css?v=01">
+    <link rel="stylesheet" href="/css/common.css?v=02">
     <!-- /UNIQUE -->
 
 </head>

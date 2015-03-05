@@ -1042,11 +1042,12 @@ ul.style1.two li:nth-child(4){
     width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background: rgba(47, 153, 255, 0.80);
+    background: rgba(236, 136, 188, 0.8);
     border-radius: 20px;
     display: block;
     color: #fff;
     text-decoration: none;
+    text-shadow: 2px 3px 5px rgba(43,36,36,.75);
 }
 
 .akciya-container:hover .title1{
