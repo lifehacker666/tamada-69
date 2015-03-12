@@ -23,6 +23,7 @@
            <a class="item vk" href="http://vk.com/tamada_tver69" target="_blank"> - <span>Вконтакте</span></a><br>
            <a class="item ok" href="http://www.odnoklassniki.ru/group/52459577737299" target="_blank"> - <span>Одноклассники</span></a>
        </div>
+       <a class="item email" href="mailto:tamada.victor@yandex.ru">E-mail: tamada.victor@yandex.ru</a>
    </div>
 </div>
 

@@ -66,6 +66,26 @@
     /* /фиксированное верхнее меню */
 
 
+    /* Owl Slider */
+    $(function() {
+        if( $(".index_slider .owl-carousel").is("div") ){
+
+            var owl =  $('.index_slider .owl-carousel');
+
+            owl.owlCarousel({
+                singleItem : true,
+                autoPlay : 12000,
+                stopOnHover : true,
+                navigation: true,
+                pagination: false,
+                responsiveBaseWidth: '.index_slider .owl-carousel',
+                transitionStyle : "backSlide"
+            });
+
+        }
+    });
+
+
     /* кнопка Наверх */
     $(function() {
         $('body').append('<div class="toTop button">НАВЕРХ</div>');

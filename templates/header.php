@@ -15,17 +15,20 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png"/>
     <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png"/>
 
-    <!-- STANDART -->
     <script src="/js/lib/jquery-1.11.0.min.js"></script>
     <!--[if IE]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css">
-    <!-- /STANDART -->
 
-    <!-- UNIQUE -->
-    <link rel="stylesheet" href="/css/common.css?v=02">
-    <!-- /UNIQUE -->
+    <? if ( $page_name == 'index-page'){ ?>
+    <link rel="stylesheet" type="text/css"  href="/css/owl-carousel/owl.carousel.css"/>
+    <link rel="stylesheet" type="text/css"  href="/css/owl-carousel/owl.theme.css"/>
+    <link rel="stylesheet" type="text/css"  href="/css/owl-carousel/owl.transitions.css"/>
+    <? } ?>
+
+    <link rel="stylesheet" href="/css/common.css?v=03">
+
 
 </head>
 
@@ -76,16 +79,37 @@
     </div>
 
     <? if ( $page_name == 'index-page'){ ?>
-    <!--akciya-->
-    <div class="content-wraper akciya">
+
+    <!--slider-->
+    <div class="content-wraper slider">
         <div class="content">
-            <div>
-                <a href="/contact.php" class="akciya-container">
-                    <div class="title1">Поздравляем посетительниц нашего сайта</div>
-                    <div class="title2">с грядущим Международным Женским днем!</div>
-                    <p>Спешим предложить поздравительные минипрограммы<br> к празднику (продолжительностью от 30 минут)</p>
-                    <p>Вы можете заказать поздравление<br> прямо в офис после работы или в обеденное время!</p>
-                </a>
+            <div class="index_slider">
+                <div class="owl-carousel">
+                    <div class="item">
+                        <a href="/contact.php" class="akciya-container">
+                            <div class="title1">Поздравляем посетительниц нашего сайта</div>
+                            <div class="title2">с грядущим Международным Женским днем!</div>
+                            <p>Спешим предложить поздравительные минипрограммы<br> к празднику (продолжительностью от 30 минут)</p>
+                            <p>Вы можете заказать поздравление<br> прямо в офис после работы или в обеденное время!</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="/contact.php" class="akciya-container">
+                            <div class="title1">Поздравляем посетительниц нашего сайта</div>
+                            <div class="title2">с грядущим Международным Женским днем!</div>
+                            <p>Спешим предложить поздравительные минипрограммы<br> к празднику (продолжительностью от 30 минут)</p>
+                            <p>Вы можете заказать поздравление<br> прямо в офис после работы или в обеденное время!</p>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="/contact.php" class="akciya-container">
+                            <div class="title1">Поздравляем посетительниц нашего сайта</div>
+                            <div class="title2">с грядущим Международным Женским днем!</div>
+                            <p>Спешим предложить поздравительные минипрограммы<br> к празднику (продолжительностью от 30 минут)</p>
+                            <p>Вы можете заказать поздравление<br> прямо в офис после работы или в обеденное время!</p>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
