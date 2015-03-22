@@ -79,7 +79,7 @@
                 navigation: true,
                 pagination: false,
                 responsiveBaseWidth: '.index_slider .owl-carousel',
-                transitionStyle : "backSlide"
+                transitionStyle : "fadeUp"
             });
 
         }

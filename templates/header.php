@@ -85,28 +85,23 @@
         <div class="content">
             <div class="index_slider">
                 <div class="owl-carousel">
-                    <div class="item">
-                        <a href="/contact.php" class="akciya-container">
-                            <div class="title1">Поздравляем посетительниц нашего сайта</div>
-                            <div class="title2">с грядущим Международным Женским днем!</div>
-                            <p>Спешим предложить поздравительные минипрограммы<br> к празднику (продолжительностью от 30 минут)</p>
-                            <p>Вы можете заказать поздравление<br> прямо в офис после работы или в обеденное время!</p>
+                    <div class="item item1">
+                        <img class="img-bg" src="/img/akciya3.jpg" alt=""/>
+                        <a href="/contact.php" class="akciya-wraper">
+                            <div  class="akciya-container">
+                                <div class="title1">Проводится весенняя акция!</div>
+                                <div class="title2">Торопитесь сделать себе праздник!</div>
+<!--                                <p>Спешим предложить поздравительные минипрограммы<br> к празднику (продолжительностью от 30 минут)</p>-->
+                            </div>
                         </a>
                     </div>
-                    <div class="item">
-                        <a href="/contact.php" class="akciya-container">
-                            <div class="title1">Поздравляем посетительниц нашего сайта</div>
-                            <div class="title2">с грядущим Международным Женским днем!</div>
-                            <p>Спешим предложить поздравительные минипрограммы<br> к празднику (продолжительностью от 30 минут)</p>
-                            <p>Вы можете заказать поздравление<br> прямо в офис после работы или в обеденное время!</p>
-                        </a>
-                    </div>
-                    <div class="item">
-                        <a href="/contact.php" class="akciya-container">
-                            <div class="title1">Поздравляем посетительниц нашего сайта</div>
-                            <div class="title2">с грядущим Международным Женским днем!</div>
-                            <p>Спешим предложить поздравительные минипрограммы<br> к празднику (продолжительностью от 30 минут)</p>
-                            <p>Вы можете заказать поздравление<br> прямо в офис после работы или в обеденное время!</p>
+                    <div class="item item2">
+                        <img class="img-bg" src="/img/akciya2.jpg" alt=""/>
+                        <a href="/contact.php" class="akciya-wraper">
+                            <div  class="akciya-container">
+                                <div class="title1">Проводится весенняя акция!</div>
+                                <div class="title2">Торопитесь сделать себе праздник!</div>
+                            </div>
                         </a>
                     </div>
                 </div>

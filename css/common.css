@@ -497,9 +497,9 @@ header .contacts span{
 
 /*---------INDEX OWL SLIDER------------*/
 .content-wraper.slider .content{
-    display: none;
     padding: 0;
     width: 996px;
+    background: #f5f5f5;
 }
 
 .index_slider {
@@ -509,8 +509,18 @@ header .contacts span{
 
 .index_slider .item {
     width: 996px;
-    height: 310px;
-    background: url('../img/akciya2.jpg');
+    height: 300px;
+    padding: 28px 0;
+}
+
+.item .akciya-wraper:hover .title1{
+    text-decoration: underline;
+}
+
+.index_slider .item .img-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .index_slider .item .img-container{
@@ -536,20 +546,33 @@ header .contacts span{
     background: url('../img/akciya2.jpg');
 }
 
-.akciya-container{
-    width: 600px;
+.item .akciya-wraper{
+    position: relative;
+    z-index: 1;
+    width: 712px;
+    height: 260px;
     margin: 0 auto;
     padding: 20px;
-    background: rgba(236, 136, 188, 0.8);
     border-radius: 20px;
-    display: block;
     color: #fff;
+    display: block;
     text-decoration: none;
-    text-shadow: 2px 3px 5px rgba(43,36,36,.75);
 }
 
-.akciya-container:hover .title1{
-    text-decoration: underline;
+.item.item1 .akciya-wraper{
+    background: rgba(178, 210, 210, 0.8);
+}
+
+.item.item2 .akciya-wraper{
+    display: block;
+    background: rgba(236, 136, 188, 0.8);
+}
+
+.item .akciya-wraper .akciya-container{
+    display: table-cell;
+    vertical-align: middle;
+    width: 600px;
+    height: 260px;
 }
 
 .index_slider .item .title1{
@@ -557,6 +580,7 @@ header .contacts span{
     line-height: normal;
     text-transform: uppercase;
     text-align: center;
+    text-shadow: 2px 3px 5px rgba(43,36,36,.75);
 }
 
 .index_slider .item .title2{
@@ -565,11 +589,13 @@ header .contacts span{
     text-align: center;
     text-transform: uppercase;
     margin-top: 10px;
+    text-shadow: 2px 3px 5px rgba(43,36,36,.75);
 }
 
 .index_slider .item p{
     text-align: center;
     font-size: 17px;
+    text-shadow: 1px 1px 3px rgba(43,36,36,.75);
 }
 
 .index_slider .item .text-p{
@@ -703,13 +729,6 @@ header .contacts span{
     color: #777;
 }
 
-.faq .faq-container .item .date {
-    position: absolute;
-    top: 0;
-    right: 0;
-    color: #333;
-    font-weight: bold;
-}
 
 .faq .faq-container .item .question {
     margin: 25px 0 10px 0;
@@ -718,15 +737,19 @@ header .contacts span{
     border-radius: 6px;
 }
 
+.faq .faq-container .item .question .date{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: grey;
+    font-size: 14px;
+}
+
 .faq .faq-container .item .answer {
     padding: 20px 40px;
     margin-left: 30px;
     background: #eee;
     border-radius: 6px;
-}
-
-.faq .faq-container .item .answer p, .faq .faq-container .item .question p{
-    margin: 0 5px;
 }
 
 .faq textarea{
