@@ -571,7 +571,7 @@ header .contacts span{
 .item .akciya-wraper .akciya-container{
     display: table-cell;
     vertical-align: middle;
-    width: 600px;
+    width: 712px;
     height: 260px;
 }
 
@@ -1086,7 +1086,6 @@ ul.style1.two li:nth-child(4){
 }
 
 .block2 .right-part ul{
-    float: left;
     font-size: 17px;
     list-style: none;
     padding: 0;
@@ -1106,6 +1105,151 @@ ul.style1.two li:nth-child(4){
     position: absolute;
     top: 6px;
     left: -31px;
+}
+
+.heart1{
+    position: relative;
+    width: 266px;
+    height: 238px;
+
+}
+
+.heart1 img {
+    max-width: 266px;
+    max-height: 238px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.heart1 img.heart1_2{
+    opacity: 0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-animation: 3s logo1_2 infinite;
+    -moz-animation: 3s logo1_2 infinite;
+    -o-animation: 3s logo1_2 infinite;
+    -ms-animation: 3s logo1_2 infinite;
+    animation: 3s logo1_2 infinite;
+}
+
+.heart2{
+    margin-top: 35px;
+    position: relative;
+    width: 266px;
+    height: 238px;
+
+}
+
+.heart2 img {
+    max-width: 261px;
+    max-height: 232px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.heart2 img.heart2_2{
+    opacity: 0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    -webkit-animation: 3s logo1_2 infinite;
+    -moz-animation: 3s logo1_2 infinite;
+    -o-animation: 3s logo1_2 infinite;
+    -ms-animation: 3s logo1_2 infinite;
+    animation: 3s logo1_2 infinite;
+}
+
+@-webkit-keyframes logo1_2 {
+    0% {
+        opacity: 0;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+    }
+    50% {
+        opacity: 1;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+        filter: alpha(opacity=1);
+    }
+    100% {
+        opacity: 0;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+    }
+}
+@-moz-keyframes logo1_2 {
+    0% {
+        opacity: 0;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+    }
+    50% {
+        opacity: 1;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+        filter: alpha(opacity=1);
+    }
+    100% {
+        opacity: 0;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+    }
+}
+@-o-keyframes logo1_2 {
+    0% {
+        opacity: 0;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+    }
+    50% {
+        opacity: 1;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+        filter: alpha(opacity=1);
+    }
+    100% {
+        opacity: 0;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+    }
+}
+@-ms-keyframes logo1_2 {
+    0% {
+        opacity: 0;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+    }
+    50% {
+        opacity: 1;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+        filter: alpha(opacity=1);
+    }
+    100% {
+        opacity: 0;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+    }
+}
+@keyframes logo1_2 {
+    0% {
+        opacity: 0;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+    }
+    50% {
+        opacity: 1;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+        filter: alpha(opacity=1);
+    }
+    100% {
+        opacity: 0;
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+        filter: alpha(opacity=0);
+    }
 }
 /*---------/INDEX PAGE------------*/
 

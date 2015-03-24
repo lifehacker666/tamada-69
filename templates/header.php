@@ -27,7 +27,7 @@
     <link rel="stylesheet" type="text/css"  href="/css/owl-carousel/owl.transitions.css"/>
     <? } ?>
 
-    <link rel="stylesheet" href="/css/common.css?v=03">
+    <link rel="stylesheet" href="/css/common.css?v=04">
 
 
 </head>

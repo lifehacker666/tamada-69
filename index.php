@@ -44,6 +44,14 @@
                 <li><a href="/dj.php/">DJ и музыка по заявкам</a></li>
                 <li><a href="/hardware.php/">Спецэффекты и реквизит</a></li>
             </ul>
+            <div class="heart1">
+                <img class="heart1_1" src="/img/heart1.png" alt=""/>
+                <img class="heart1_2" src="/img/heart2.png" alt=""/>
+            </div>
+            <div class="heart2">
+                <img class="heart2_1" src="/img/heart3.png" alt=""/>
+                <img class="heart2_2" src="/img/heart4.png" alt=""/>
+            </div>
         </div>
     </div>
 </div>
