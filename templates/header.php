@@ -114,7 +114,7 @@
         <div class="content">
             <div class="clearfix">
                 <div class="spisok-uslug clearfix">
-                    <h2>Я провожу</h2>
+                    <h2>Услуги ведущего</h2>
                     <ul class="style1 one">
                         <li class="animated">Свадьбы</li>
                         <li class="animated">Дни рождения и юбилеи</li>
@@ -129,7 +129,7 @@
                     </ul>
                 </div>
                 <div class="zakaz-block animated">
-                    Вам нужен тамада или ведущий на праздник?
+                    <h2>Вам нужен тамада или ведущий на праздник?</h2>
                     <a href="/contact.php" class="button open-popup">Организовать праздник !!!</a>
                 </div>
                 <div class="block1-bg"></div>

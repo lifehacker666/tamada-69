@@ -1003,6 +1003,12 @@ ul.style1.two li:nth-child(4){
     letter-spacing: 1px;
 }
 
+.zakaz-block h2{
+    text-transform: none;
+    margin: 0;
+    padding: 0;
+}
+
 .zakaz-block .button{
     margin-top: 21px;
     width: 151px;
@@ -1010,8 +1016,8 @@ ul.style1.two li:nth-child(4){
 }
 
 .zakaz-block.contacts{
-    width: 413px;
-    height: 134px;
+    width: 425px;
+    height: 154px;
     margin: 60px 0 0 0;
 }
 
