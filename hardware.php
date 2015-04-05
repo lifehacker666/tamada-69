@@ -12,42 +12,59 @@
 
    <div class="table-block" data-key="animated-block-table">
        <div class="colomn one animated">
-           <img src="/img/hw2.jpg" alt=""/>
+           <div class="rays-container rays1">
+               <div class="rays-logo"></div>
+               <div class="rays"></div>
+           </div>
        </div>
        <div class="colomn two animated">
-           <p>Аккустическая система</p>
+           <p>Мощная<br>Аккустическая система</p>
        </div>
    </div>
    <div class="table-block" data-key="animated-block-table">
        <div class="colomn one animated">
-           <p>Микрофон<br>Караоке</p>
+           <p>Микрофон для<br>караоке</p>
        </div>
        <div class="colomn two animated">
-           <img src="/img/hw8.png" alt=""/>
+           <div class="colomn one animated">
+               <div class="rays-container rays2">
+                   <div class="rays-logo"></div>
+                   <div class="rays"></div>
+               </div>
+           </div>
        </div>
    </div>
    <div class="table-block" data-key="animated-block-table">
        <div class="colomn one animated">
-           <img src="/img/hw7.jpg" alt=""/>
+           <div class="rays-container rays3">
+               <div class="rays-logo"></div>
+               <div class="rays"></div>
+           </div>
        </div>
        <div class="colomn two animated">
-           <p>Светомузыкальное оборудование</p>
+           <p>Светомузыкальное оборудование<br> для дискотеки</p>
        </div>
    </div>
    <div class="table-block" data-key="animated-block-table">
        <div class="colomn one animated">
-           <p>Ноутбук с внешней профессиональной звуковой картой</p>
+           <p>Ноутбук с профессиональной звуковой картой</p>
        </div>
        <div class="colomn two animated">
-           <img src="/img/hw3.jpg" alt=""/>
+           <div class="rays-container rays4">
+               <div class="rays-logo"></div>
+               <div class="rays"></div>
+           </div>
        </div>
    </div>
    <div class="table-block" data-key="animated-block-table">
        <div class="colomn one animated">
-           <img src="/img/hw5.jpg" alt=""/>
+           <div class="rays-container rays5">
+               <div class="rays-logo"></div>
+               <div class="rays"></div>
+           </div>
        </div>
        <div class="colomn two animated">
-           <p>3G Модем</p>
+           <p>3G Модем<br> для музыки по заявкам</p>
        </div>
    </div>
 </div>

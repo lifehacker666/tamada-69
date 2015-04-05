@@ -1308,6 +1308,155 @@ ul.style1.two li:nth-child(4){
     line-height: 35px;
     text-align: center;
 }
+
+/*rays*/
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+
+.rays-container{
+    position: relative;
+}
+.rays-logo {
+    text-indent: -3000px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.rays	{ /* with animation properties */
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    width: 490px;
+    height: 490px;
+
+    /* webkit chrome, safari, mobile */
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 40000ms; /* 40 seconds */
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    /* mozilla ff */
+    -moz-animation-name: spin;
+    -moz-animation-duration: 40000ms; /* 40 seconds */
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+
+    /* microsoft ie */
+    -ms-animation-name: spin;
+    -ms-animation-duration: 40000ms; /* 40 seconds */
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+}
+
+.rays-container.rays1{
+    width: 300px;
+    height: 219px;
+    margin: 22px 0 75px 80px;
+}
+
+.rays-container.rays1 .rays-logo{
+    width: 300px;
+    height: 219px;
+    background: url('../img/hw2.png') 0 0 no-repeat;
+}
+
+.rays-container.rays1 .rays{
+    background: url('../img/rays1.png') 0 0 no-repeat;
+}
+
+.rays-container.rays2{
+    width: 230px;
+    height: 220px;
+    position: relative;
+    left: -36px;
+}
+
+.rays-container.rays2 .rays-logo{
+    width: 230px;
+    height: 220px;
+    background: url('../img/hw8.png');
+    position: relative;
+    top: 35px;
+    left: 24px;
+}
+
+.rays-container.rays2 .rays{
+    background: url('../img/rays3.png') 0 0 no-repeat;
+}
+
+.rays-container.rays3{
+    width: 231px;
+    height: 289px;
+    margin: 36px 106px 0 58px;
+}
+
+.rays-container.rays3 .rays-logo{
+    width: 231px;
+    height: 289px;
+    background: url('../img/hw7.png');
+    position: relative;
+    top: -5px;
+    left: 47px;
+
+}
+
+.rays-container.rays3 .rays{
+    background: url('../img/rays2.png') 0 0 no-repeat;
+}
+
+.rays-container.rays4{
+    width: 261px;
+    height: 184px;
+    margin: 36px 106px 0 58px;
+}
+
+.rays-container.rays4 .rays-logo{
+    width: 261px;
+    height: 184px;
+    background: url('../img/hw3.png');
+    position: relative;
+    top: 30px;
+    left: -12px;
+}
+
+.rays-container.rays4 .rays{
+    background: url('../img/rays2.png') 0 0 no-repeat;
+}
+
+.rays-container.rays5{
+    width: 254px;
+    height: 245px;
+    margin: 93px 106px 0 58px;
+}
+
+.rays-container.rays5 .rays-logo{
+    width: 254px;
+    height: 245px;
+    background: url('../img/hw5.png');
+    position: relative;
+    top: 30px;
+    left: 14px;
+}
+
+.rays-container.rays5 .rays{
+    background: url('../img/rays3.png') 0 0 no-repeat;
+}
+/*.rays */
+
 /*---------/HARDWARE PAGE------------*/
 
 
