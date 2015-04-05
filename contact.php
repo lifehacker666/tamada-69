@@ -18,7 +18,7 @@
       <span itemprop='openingHours' datetime='Mo-Su 9:00-22:00'>с 9 до 22 без выходных</span>
    </div>
    <div class="zakaz-block two contacts animated" style="float: right">
-       Либо написать мне<br> в социальных сетях:
+       Либо написать мне<br>в любое время:
        <div class="socials">
            <a class="item vk" href="http://vk.com/tamada_tver69" target="_blank"> - <span>Вконтакте</span></a><br>
            <a class="item ok" href="http://www.odnoklassniki.ru/group/52459577737299" target="_blank"> - <span>Одноклассники</span></a>
