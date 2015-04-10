@@ -1,7 +1,15 @@
+DirectoryIndex index.php
+
 AddDefaultCharset UTF-8
 
-<ifModule mod_rewrite.c>
+ErrorDocument 404 /e404.php
+
 RewriteEngine On
+
+#убрать расширение .php из пути
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME}\.php -f
+#RewriteRule ^(.*)$ $1.php
 
 #Редирект с домена без www на домен с www
 RewriteCond %{HTTP_HOST} ^tamada-69\.ru$ [NC]
@@ -29,4 +37,3 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI} !(.*)/$
 RewriteRule ^(.*[^/])$ $1/ [L,R=301]
 
-</ifModule>
