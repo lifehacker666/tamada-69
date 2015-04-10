@@ -17,6 +17,13 @@ a:hover{
     text-decoration:none;
 }
 
+a, a:hover {
+    -webkit-transition: background 0.1s ease-in-out, border 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+    -moz-transition: background 0.1s ease-in-out, border 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+    -o-transition: background 0.1s ease-in-out, border 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+    transition: background 0.1s ease-in-out, border 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+}
+
 img{
     border: none;
 }
@@ -172,9 +179,10 @@ h1, .h1{
     font-size: 24px;
     margin: 0;
     font-weight: normal;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     text-transform: uppercase;
     line-height: normal;
+    text-align: center;
 }
 
 h2, .h2{
@@ -328,7 +336,7 @@ header .logo .text{
     font-size: 33px;
     text-transform: uppercase;
     color: #f1f295;
-    text-shadow: 2px 3px 5px rgba(43,36,36,.75);
+    text-shadow: 2px 2px 4px rgba(43,36,36,.75);
     letter-spacing: 2px;
 }
 
@@ -336,17 +344,20 @@ header .contacts {
     float: right;
     margin: 38px 19px 0 0;
     border-radius: 6px;
-    background-color: rgba(255,255,255,.75);
-    border: solid 2px #f1f295;
+    background: url('../img/opacity-white.png');
+    border: solid 6px #fff;
     font-size: 18px;
     text-align: center;
     padding: 20px 30px;
+    color: #3f3f3f;
+    -webkit-box-shadow: 0 2px 20px 0 #fff;
+    -moz-box-shadow: 0 2px 20px 0 #fff;
+    box-shadow: 0 2px 20px 0 #fff;
 }
 
 header .contacts .phone{
     position: relative;
     font-size: 32px;
-    color: #000000;
     margin: 11px 0 0 0;
     text-align: left;
 }
@@ -440,7 +451,7 @@ header .contacts span{
     display: none;
     position: absolute;
     min-width: 100%;
-    left: -3px;
+    left: 0;
     white-space: nowrap;
 }
 .menu-top ul li:hover ul{display:block}
@@ -452,29 +463,33 @@ header .contacts span{
 }
 
 .menu-top > ul > li:hover > a{
-    text-decoration: none;
+    background: #ff882e;
+    text-shadow: 2px 3px 5px rgba(43,36,36,.75);
 }
 .menu-top > ul > li.selected > a{
-    text-decoration: none;
+    background: #ff882e;
+    text-shadow: 1px 1px 3px rgba(43,36,36,.75);
 }
 
 .menu-top > ul > li > a{
     display: block;
-    padding: 11px 5px;
+    padding: 11px 18px;
     font-size: 20px;
     color: #fff;
+    text-decoration: none;
 }
 /*---------/main menu-top------------*/
 
 /*---------sub menu-top------------*/
 .menu-top ul li ul{
     background-color: #ED3000;
-    padding: 0 0 5px 0;
+    padding: 0 0 0 0;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
     -webkit-box-shadow: 0px 3px 4px 1px rgba(9, 9, 9, 0.45);
     -moz-box-shadow: 0px 3px 4px 1px rgba(9, 9, 9, 0.45);
     box-shadow: 0px 3px 4px 1px rgba(9, 9, 9, 0.45);
+    overflow: hidden;
 }
 
 .menu-top ul li ul li{
@@ -485,11 +500,13 @@ header .contacts span{
     font-size: 18px;
     color: #fff;
     display: block;
-    padding: 5px 10px;
+    padding: 8px 18px;
+    text-decoration: none;
 }
 
 .menu-top ul li ul li a:hover{
-
+    background: #ff882e;
+    text-shadow: 2px 3px 5px rgba(43,36,36,.75);
 }
 /*---------/sub menu-top------------*/
 /*---------/MENU-TOP------------*/
@@ -511,10 +528,6 @@ header .contacts span{
     width: 996px;
     height: 300px;
     padding: 28px 0;
-}
-
-.item .akciya-wraper:hover .title1{
-    text-decoration: underline;
 }
 
 .index_slider .item .img-bg{
@@ -561,6 +574,12 @@ header .contacts span{
 
 .item.item1 .akciya-wraper{
     background: rgba(178, 210, 210, 0.8);
+}
+
+.item .akciya-wraper:hover{
+    -webkit-box-shadow: 0 2px 20px 0 #fff;
+    -moz-box-shadow: 0 2px 20px 0 #fff;
+    box-shadow: 0 2px 20px 0 #fff;
 }
 
 .item.item2 .akciya-wraper{
@@ -665,6 +684,7 @@ header .contacts span{
     vertical-align: top;
     margin: 0 0 25px 0;
     text-align: center;
+    text-decoration: none;
 
     /*эмуляция inline-block для IE6-7*/
     /*display : inline;*/
@@ -676,10 +696,11 @@ header .contacts span{
     display: block;
     width: 440px;
     height: 244px;
+    overflow: hidden;
 
-    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.75);
-    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.75);
-    box-shadow: 1px 2px 5px rgba(0,0,0,.75);
+    -webkit-box-shadow: 1px 2px 5px  #b3b6ba;
+    -moz-box-shadow: 1px 2px 5px  #b3b6ba;
+    box-shadow: 1px 2px 5px  #b3b6ba;
 }
 
 .catalog .item .img-container img {
@@ -691,6 +712,20 @@ header .contacts span{
     right: 0;
     bottom: 0;
     margin: auto;
+
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.catalog .item:hover .img-container img{
+    -webkit-transform: scale(1.1,1.1);
+    -moz-transform: scale(1.1,1.1);
+    -o-transform: scale(1.1,1.1);
+    -ms-transform: scale(1.1,1.1);
+    transform: scale(1.1,1.1);
 }
 
 .catalog .item .price{
@@ -704,10 +739,25 @@ header .contacts span{
     display: block;
     margin: 9px 0 0 0;
     text-transform: uppercase;
+    color: #242424;
 }
 
 .catalog.one .catalog-container{
     text-align: center;
+}
+
+.catalog .item:hover .img-container{
+    -webkit-box-shadow: 3px 4px 5px #9c9fa3;
+    -moz-box-shadow: 3px 4px 5px  #9c9fa3;
+    box-shadow: 3px 4px 5px  #9c9fa3;
+}
+
+.catalog .item .img-container,
+.catalog .item:hover .img-container {
+    -webkit-transition: background 0.1s ease-in-out, border 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+    -moz-transition: background 0.1s ease-in-out, border 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+    -o-transition: background 0.1s ease-in-out, border 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+    transition: background 0.1s ease-in-out, border 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
 }
 /*---------/CATALOG------------*/
 
@@ -764,18 +814,27 @@ header .contacts span{
 
 }
 
-.socials .item{
+.socials .item,
+.socials2 .item{
     display: inline-block;
     width: 28px;
     height: 28px;
     margin-right: 7px;
 }
 
-.socials .item.vk{
+.socials .item:hover{
+    -webkit-box-shadow: 2px 2px 5px #9c9fa3;
+    -moz-box-shadow: 2px 2px 5px #9c9fa3;
+    box-shadow: 2px 2px 5px #9c9fa3;
+}
+
+.socials .item.vk,
+.socials2 .item.vk{
     background: url('../img/vk.png') no-repeat;
 }
 
-.socials .item.ok{
+.socials .item.ok,
+.socials2 .item.ok{
     background: url('../img/ok.png') no-repeat;
 }
 /*---------/SOCIALS------------*/
@@ -1029,19 +1088,19 @@ ul.style1.two li:nth-child(4){
     font-size: 22px;
 }
 
-.zakaz-block.contacts .socials{
+.zakaz-block.contacts .socials2{
     text-align: left;
     margin: 21px 0 0 102px;
 }
 
-.zakaz-block.contacts .socials .item{
+.zakaz-block.contacts .socials2 .item{
     width: auto;
     padding-left: 35px;
     text-decoration: none;
     margin-bottom: 10px;
 }
 
-.zakaz-block.contacts .socials .item:hover span{
+.zakaz-block.contacts .socials2 .item:hover span{
     text-decoration: underline;
 }
 
@@ -1110,7 +1169,72 @@ ul.style1.two li:nth-child(4){
     height: 22px;
     position: absolute;
     top: 6px;
-    left: -31px;
+    left: -35px;
+}
+
+.block2 .right-part ul li:hover:before{
+    left: -28px;
+    -webkit-animation: 1s label-red-anim infinite;
+    -moz-animation: 1s label-red-anim infinite;
+    -o-animation: 1s label-red-anim infinite;
+    -ms-animation: 1s label-red-anim infinite;
+    animation: 1s label-red-anim infinite;
+}
+
+@-webkit-keyframes label-red-anim {
+    0% {
+        left: -35px;
+    }
+    50% {
+        left: -28px;
+    }
+    100% {
+        left: -35px;
+    }
+}
+@-moz-keyframes label-red-anim {
+    0% {
+        left: -35px;
+    }
+    50% {
+        left: -28px;
+    }
+    100% {
+        left: -35px;
+    }
+}
+@-o-keyframes label-red-anim {
+    0% {
+        left: -35px;
+    }
+    50% {
+        left: -28px;
+    }
+    100% {
+        left: -35px;
+    }
+}
+@-ms-keyframes label-red-anim {
+    0% {
+        left: -35px;
+    }
+    50% {
+        left: -28px;
+    }
+    100% {
+        left: -35px;
+    }
+}
+@keyframes label-red-anim {
+    0% {
+        left: -35px;
+    }
+    50% {
+        left: -28px;
+    }
+    100% {
+        left: -35px;
+    }
 }
 
 .heart1{
@@ -1267,7 +1391,7 @@ ul.style1.two li:nth-child(4){
 
 .dj-page .table-block .colomn{
     vertical-align: middle;
-    font-size: 25px;
+    font-size: 22px;
 
     text-transform: uppercase;
 }

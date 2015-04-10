@@ -1,13 +1,13 @@
 <?
-    $title = 'Заказать тамаду в твери, заказать ведущего на праздник, недорого, Телефон: +7-960-715-82-65 с 9 до 22';
-    $keywords = 'контакты тамады Виктора, контактная информация тамады, телефон ведущего на праздник, позвонить тамаде, найти организатора праздников, Телефон: +7-960-715-82-65';
-    $description = 'Заказать тамаду в твери, заказать ведущего на праздник, заказать ведущего на юбилей, заказать ведущего на корпоратив, Телефон: +7-960-715-82-65';
+    $title = 'Заказать тамаду в Твери и Тверской области, заказать ведущего на праздник недорого, Телефон: +7-960-715-82-65 с 9 до 22';
+    $keywords = 'контакты тамады Виктора, контактная информация тамады, телефон ведущего на праздник, позвонить тамаде, написать тамаде, реквизиты тамады, найти организатора праздников, Телефон: +7-960-715-82-65';
+    $description = 'Заказать тамаду в твери, заказать ведущего на праздник, заказать ведущего на юбилей, заказать ведущего на корпоратив, E-mail тамады, страница Вконтакте тамады. страница тамады в Одноклассниках, тамада в социальных сетях, Телефон: +7-960-715-82-65';
     include "templates/header.php";
 ?>
 
 <!--center-block-->
 <div class="floatblock center-full clearfix contact-block" data-key="animated-block-contact" itemscope itemtype='http://schema.org/LocalBusiness'>
-    <meta itemprop='name' content='Энергичный тамада в Твери - Виктор'>
+    <meta itemprop='name' content='Тамада на свадьбу и ведущий на праздник в Твери и Тверской области - Виктор'>
     <span itemprop='address' itemscope itemtype='http://schema.org/PostalAddress'>
         <meta itemprop='addressLocality' content='Тверь'>
     </span>
@@ -19,7 +19,7 @@
    </div>
    <div class="zakaz-block two contacts animated" style="float: right">
        Либо написать мне<br>в любое время:
-       <div class="socials">
+       <div class="socials2">
            <a class="item vk" href="http://vk.com/tamada_tver69" target="_blank"> - <span>Вконтакте</span></a><br>
            <a class="item ok" href="http://www.odnoklassniki.ru/group/52459577737299" target="_blank"> - <span>Одноклассники</span></a>
        </div>
