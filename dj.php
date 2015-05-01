@@ -9,6 +9,7 @@
 <!--center-block-->
 <div class="floatblock center-full">
    <h1>Ди-джей на свадьбу или праздник</h1>
+    <div class="divider"></div>
    <div class="table-block" data-key="animated-block-table">
        <div class="colomn one animated">
            <img src="/img/dj1.png" alt=""/>

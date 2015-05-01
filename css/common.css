@@ -371,7 +371,7 @@ header .contacts .phone img{
 }
 
 header .contacts span{
-    color: #cc3300;
+    color: #fff;
 }
 /*---------/HEADER------------*/
 
@@ -586,6 +586,11 @@ header .contacts span{
     display: block;
     background: rgba(236, 136, 188, 0.8);
 }
+
+.item.item0 .akciya-wraper{
+    background: rgba(93, 90, 109, 0.6)
+}
+
 
 .item .akciya-wraper .akciya-container{
     display: table-cell;
@@ -837,6 +842,16 @@ header .contacts span{
 .socials2 .item.ok{
     background: url('../img/ok.png') no-repeat;
 }
+
+.socials .item.tw,
+.socials2 .item.tw{
+    background: url('../img/tw.png') no-repeat;
+}
+
+.socials .item.fb,
+.socials2 .item.fb{
+    background: url('../img/fb.png') no-repeat;
+}
 /*---------/SOCIALS------------*/
 
 
@@ -883,7 +898,7 @@ footer .phone {
     position: relative;
     display: inline-block;
     font-size: 28px;
-    margin: 30px 0 0 277px;
+    margin: 30px 0 0 219px;
 }
 
 footer .phone:before{
@@ -1076,16 +1091,18 @@ ul.style1.two li:nth-child(4){
 
 .zakaz-block.contacts{
     width: 425px;
-    height: 154px;
-    margin: 60px 0 0 0;
+    height: 289px;
+    margin: 20px 0 0 0;
 }
 
 .zakaz-block.contacts .button{
+    position: relative;
     display: block;
-    margin: 20px auto;
-    width: 190px;
+    margin: 15px auto;
+    width: 245px;
     padding: 11px 27px;
     font-size: 22px;
+    padding-left: 62px;
 }
 
 .zakaz-block.contacts .socials2{
@@ -1097,28 +1114,40 @@ ul.style1.two li:nth-child(4){
     width: auto;
     padding-left: 35px;
     text-decoration: none;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
 }
 
 .zakaz-block.contacts .socials2 .item:hover span{
     text-decoration: underline;
 }
 
+.zakaz-block.contacts .email-container{
+    margin-top: 10px;
+}
+
+.zakaz-block.contacts .line{
+    margin: 20px auto 15px auto;
+    width: 150px;
+    height: 1px;
+    background: #929292;
+}
+
 .zakaz-block.contacts .email{
-    position: relative;
-    text-decoration: none;
-    left: 20px;
+
 }
 
 .zakaz-block.contacts .email:before {
     content: url('../img/email.png');
     position: absolute;
-    top: -1px;
-    left: -33px;
+    top: 14px;
+    left: 19px;
 }
 
-.zakaz-block.contacts .email:hover{
-    text-decoration: underline;
+.zakaz-block.contacts .phone:before {
+    content: url('../img/phone2.png');
+    position: absolute;
+    top: 10px;
+    left: 19px;
 }
 
 .block2 .left-part{
@@ -1241,7 +1270,7 @@ ul.style1.two li:nth-child(4){
     position: relative;
     width: 266px;
     height: 238px;
-
+    margin-bottom: 25px;
 }
 
 .heart1 img {
@@ -1267,7 +1296,7 @@ ul.style1.two li:nth-child(4){
 }
 
 .heart2{
-    margin-top: 35px;
+    margin-top: 15px;
     position: relative;
     width: 266px;
     height: 238px;
@@ -1580,7 +1609,6 @@ ul.style1.two li:nth-child(4){
     background: url('../img/rays3.png') 0 0 no-repeat;
 }
 /*.rays */
-
 /*---------/HARDWARE PAGE------------*/
 
 
@@ -1628,6 +1656,50 @@ a.fancybox-thumb[href$=".png"]:hover:before{
     height: 40px;
     background: url('../img/zoom.png') center no-repeat;
     z-index: 1;
+}
+
+.divider{
+    width: 118px;
+    height: 22px;
+    margin: 0px auto 12px auto;
+    background: url('../img/devider.png');
+}
+
+/*price-page*/
+.price-text{
+    width: 636px;
+    float: left;
+}
+
+.price-heart{
+    float: right;
+    margin-top: 160px;
+}
+/*/price-page*/
+
+/*about-page*/
+.chick1{
+    float: left;
+    width: 212px;
+}
+
+.about-text{
+    float: left;
+    width: 450px;
+    margin-left: 15px;
+    text-align: justify;
+}
+
+.chick2{
+    float: left;
+    margin-top: 165px;
+}
+/*/about-page*/
+
+.school{
+    display: block;
+    width: 600px;
+    margin: 15px auto 0 auto;
 }
 /*---------/OTHER STYLES------------*/
 

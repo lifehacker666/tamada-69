@@ -13,6 +13,8 @@
            <div class="socials animated">
                <a class="item vk" title="Вконтакте" href="http://vk.com/tamada_tver69" target="_blank"></a>
                <a class="item ok" title="Одноклассники" href="http://www.odnoklassniki.ru/group/52459577737299" target="_blank"></a>
+               <a class="item fb" title="Facebook" href="https://www.facebook.com/profile.php?id=100009622655963" target="_blank"></a>
+               <a class="item tw" title="Twitter" href="https://twitter.com/TamadaVictor" target="_blank"></a>
            </div>
            <div class="phone animated">+7-960-715-82-65</div>
            <div class="counter">

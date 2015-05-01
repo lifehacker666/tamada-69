@@ -8,7 +8,7 @@
 <!--center-block-->
 <div class="floatblock center-full">
     <h1>Отзывы клиентов о деятельности тамады и ведущего праздников</h1>
-
+    <div class="divider"></div>
     <div class="faq block">
 
         <div class="faq-container">

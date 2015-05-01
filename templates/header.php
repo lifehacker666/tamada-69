@@ -27,7 +27,7 @@
     <link rel="stylesheet" type="text/css"  href="/css/owl-carousel/owl.transitions.css"/>
     <? } ?>
 
-    <link rel="stylesheet" href="/css/common.css?v=05">
+    <link rel="stylesheet" href="/css/common.css?v=06">
 
 
 </head>
@@ -85,12 +85,21 @@
         <div class="content">
             <div class="index_slider">
                 <div class="owl-carousel">
+                    <div class="item item0">
+                        <img class="img-bg" src="/img/akciya4.jpg" alt=""/>
+                        <a href="/akcia.php" class="akciya-wraper">
+                            <div  class="akciya-container">
+                                <div class="title1">Выпускные вечера<br>от школьных до студенческих !!!</div>
+                                <div class="title2"></div>
+                            </div>
+                        </a>
+                    </div>
                     <div class="item item1">
                         <img class="img-bg" src="/img/akciya3.jpg" alt=""/>
                         <a href="/contact.php" class="akciya-wraper">
                             <div  class="akciya-container">
                                 <div class="title1">Проводится весенняя акция!</div>
-                                <div class="title2">Торопитесь сделать себе праздник!</div>
+                                <div class="title2">Скидки в честь майских праздников.<br> Устройте себе праздник вместе с нами!</div>
 <!--                                <p>Спешим предложить поздравительные минипрограммы<br> к празднику (продолжительностью от 30 минут)</p>-->
                             </div>
                         </a>
@@ -100,7 +109,7 @@
                         <a href="/contact.php" class="akciya-wraper">
                             <div  class="akciya-container">
                                 <div class="title1">Проводится весенняя акция!</div>
-                                <div class="title2">Торопитесь сделать себе праздник!</div>
+                                <div class="title2">Скидки в честь майских праздников.<br> Устройте себе праздник вместе с нами!</div>
                             </div>
                         </a>
                     </div>

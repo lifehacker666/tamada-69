@@ -8,6 +8,7 @@
 <!--center-block-->
 <div class="floatblock center-full">
     <h1>Свадебные фото</h1>
+    <div class="divider"></div>
    <div class="catalog block">
        <div class="catalog-container">
            <div class="item">
