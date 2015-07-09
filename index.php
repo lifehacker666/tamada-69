@@ -40,13 +40,13 @@
             <ul>
                 <li>Креативный подход</li>
                 <li>Разнообразие сценариев</li>
-                <li><a href="/price.php/">Гибкая ценовая политика</a></li>
-                <li><a href="/price.php/">Эконом-программы</a></li>
+                <li><a href="/price">Гибкая ценовая политика</a></li>
+                <li><a href="/price">Эконом-программы</a></li>
                 <li>Учет всех пожеланий клиента</li>
                 <li>Большой опыт работ</li>
-                <li><a href="/hardware.php/">Современное оборудование</a></li>
-                <li><a href="/dj.php/">DJ и музыка по заявкам</a></li>
-                <li><a href="/hardware.php/">Спецэффекты и реквизит</a></li>
+                <li><a href="/hardware">Современное оборудование</a></li>
+                <li><a href="/dj">DJ и музыка по заявкам</a></li>
+                <li><a href="/hardware">Спецэффекты и реквизит</a></li>
             </ul>
             <div class="heart1">
                 <img class="heart1_1" src="/img/heart1.png" alt=""/>

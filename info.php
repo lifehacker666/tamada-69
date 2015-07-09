@@ -11,13 +11,13 @@
     <div class="divider"></div>
     <div class="catalog podrazdeli">
         <div class="catalog-container">
-            <a href="/hardware.php" class="item">
+            <a href="/hardware" class="item">
                 <div class="img-container">
                     <img src="/img/podrazdel1.png" alt="">
                 </div>
                 <div class="name">Аппаратура для праздника</div>
             </a>
-            <a href="/gallery.php" class="item">
+            <a href="/gallery" class="item">
                 <div class="img-container">
                     <img src="/img/podrazdel2.png" alt="">
                 </div>

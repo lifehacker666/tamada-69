@@ -1,39 +1,41 @@
 DirectoryIndex index.php
 
-AddDefaultCharset UTF-8
+AddDefaultCharset utf-8
 
 ErrorDocument 404 /e404.php
 
+<ifModule mod_rewrite.c>
 RewriteEngine On
 
-#убрать расширение .php из пути
-#RewriteCond %{REQUEST_FILENAME} !-d
-#RewriteCond %{REQUEST_FILENAME}\.php -f
-#RewriteRule ^(.*)$ $1.php
+#СѓР±СЂР°С‚СЊ СЂР°СЃС€РёСЂРµРЅРёРµ .php РёР· РїСѓС‚Рё
+RewriteRule ^(\w+)$ $1.php [NC]
 
-#Редирект с домена без www на домен с www
-RewriteCond %{HTTP_HOST} ^tamada-69\.ru$ [NC]
-RewriteRule ^(.*)$ http://www.tamada-69.ru/$1 [R=301,L]
+#Р РµРґРёСЂРµРєС‚ СЃ РґРѕРјРµРЅР° СЃ www РЅР° РґРѕРјРµРЅ Р‘Р•Р— www (РїРѕ СѓРјРѕР»С‡.)
+RewriteCond %{HTTP_HOST} ^www\.(.*)$
+RewriteRule ^(.*)$ http://%1/$1 [L,R=301]
 
-#Редирект с index.php на главную
+#Р РµРґРёСЂРµРєС‚ СЃ index.php РЅР° РіР»Р°РІРЅСѓСЋ
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP
 RewriteRule ^index\.php$ http://www.tamada-69.ru/ [R=301,L]
 
-#Редирект с index на главную
+#Р РµРґРёСЂРµРєС‚ СЃ index РЅР° РіР»Р°РІРЅСѓСЋ
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\ HTTP
 RewriteRule ^index$ http://www.tamada-69.ru/ [R=301,L]
 
-#Редирект с index/ на главную
+#Р РµРґРёСЂРµРєС‚ СЃ index/ РЅР° РіР»Р°РІРЅСѓСЋ
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index/\ HTTP
 RewriteRule ^index/$ http://www.tamada-69.ru/ [R=301,L]
 
-#Редирект с index.html на главную
+#Р РµРґРёСЂРµРєС‚ СЃ index.html РЅР° РіР»Р°РІРЅСѓСЋ
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP
 RewriteRule ^index\.html$ http://www.tamada-69.ru/ [R=301,L]
 
-#301 редирект страниц со слэшем и без
+#301 СЂРµРґРёСЂРµРєС‚ СЃС‚СЂР°РЅРёС† СЃРѕ СЃР»СЌС€РµРј Рё Р±РµР·
 RewriteBase /
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI} !(.*)/$
 RewriteRule ^(.*[^/])$ $1/ [L,R=301]
 
+
+
+</ifModule>

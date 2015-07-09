@@ -60,18 +60,18 @@
                 <img class="menu-top-right" src="/img/menu-top-right.png" alt=""/>
                 <ul>
                     <li><a href="/">Главная</a></li>
-                       <li><a href="/about.php">О себе</a></li>
-                       <li><a href="/price.php">Цены</a></li>
-                       <li><a href="/dj.php">Ди-джей</a></li>
-                       <li><a href="/reviews.php">Отзывы</a></li>
+                       <li><a href="/about">О себе</a></li>
+                       <li><a href="/price">Цены</a></li>
+                       <li><a href="/dj">Ди-джей</a></li>
+                       <li><a href="/reviews">Отзывы</a></li>
                        <li>
-                            <a href="/info.php">Информация</a>
+                            <a href="/info">Информация</a>
                              <ul>
-                                 <li><a href="/hardware.php">Аппаратура</a></li>
-                                 <li><a href="/gallery.php">Свадебные фото</a></li>
+                                 <li><a href="/hardware">Аппаратура</a></li>
+                                 <li><a href="/gallery">Свадебные фото</a></li>
                              </ul>
                         </li>
-                       <li><a href="/contact.php">Контакты</a></li>
+                       <li><a href="/contact">Контакты</a></li>
                        <li class="helper"></li> <!-- доп элемент для выравнивания по ширине -->
                 </ul>
             </nav>
@@ -87,7 +87,7 @@
                 <div class="owl-carousel">
                     <div class="item item0">
                         <img class="img-bg" src="/img/akciya4.jpg" alt=""/>
-                        <a href="/akcia.php" class="akciya-wraper">
+                        <a href="/akcia"class="akciya-wraper">
                             <div  class="akciya-container">
                                 <div class="title1">Выпускные вечера<br>от школьных до студенческих !!!</div>
                                 <div class="title2"></div>
@@ -96,7 +96,7 @@
                     </div>
                     <div class="item item1">
                         <img class="img-bg" src="/img/akciya3.jpg" alt=""/>
-                        <a href="/contact.php" class="akciya-wraper">
+                        <a href="/contact"class="akciya-wraper">
                             <div  class="akciya-container">
                                 <div class="title1">Проводится весенняя акция!</div>
                                 <div class="title2">Скидки в честь майских праздников.<br> Устройте себе праздник вместе с нами!</div>
@@ -106,7 +106,7 @@
                     </div>
                     <div class="item item2">
                         <img class="img-bg" src="/img/akciya2.jpg" alt=""/>
-                        <a href="/contact.php" class="akciya-wraper">
+                        <a href="/contact"class="akciya-wraper">
                             <div  class="akciya-container">
                                 <div class="title1">Проводится весенняя акция!</div>
                                 <div class="title2">Скидки в честь майских праздников.<br> Устройте себе праздник вместе с нами!</div>
@@ -139,7 +139,7 @@
                 </div>
                 <div class="zakaz-block animated">
                     <h2>Вам нужен тамада или ведущий на праздник?</h2>
-                    <a href="/contact.php" class="button open-popup">Организовать праздник !!!</a>
+                    <a href="/contact"class="button open-popup">Организовать праздник !!!</a>
                 </div>
                 <div class="block1-bg"></div>
             </div>
