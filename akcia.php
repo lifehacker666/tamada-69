@@ -5,8 +5,7 @@
     include "templates/header.php";
 ?>
 
-<!--center-block-->
-<div class="floatblock center-full clearfix contact-block" data-key="animated-block-contact">
+<div class="content clearfix contact-block" data-key="animated-block-contact">
     <h1>Проведение выпускных вечеров</h1>
     <div class="divider"></div>
     <p>Выпускные вечера - <b>от школьных до студенческих</b>!<br></p>

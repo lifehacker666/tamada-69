@@ -1,35 +1,34 @@
 <!doctype html>
-<html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
 <head>
     <meta charset="UTF-8">
     <title><?= $title ?></title>
     <meta name="description" content="<?= $description ?>">
     <meta name="keywords" content="<?= $keywords ?>">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png"/>
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png"/>
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png"/>
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png"/>
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png"/>
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png"/>
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-touch-icon-114x114.png">
 
-    <script src="/js/lib/jquery-1.11.0.min.js"></script>
-    <!--[if IE]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv-printshiv.min.js"></script>
     <![endif]-->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.4/slicknav.min.css"/>
 
     <? if ( $page_name == 'index-page'){ ?>
-    <link rel="stylesheet" type="text/css"  href="/css/owl-carousel/owl.carousel.css"/>
-    <link rel="stylesheet" type="text/css"  href="/css/owl-carousel/owl.theme.css"/>
-    <link rel="stylesheet" type="text/css"  href="/css/owl-carousel/owl.transitions.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.2/owl.transitions.min.css"/>
     <? } ?>
 
-    <link rel="stylesheet" href="/css/common.css?v=06">
-
-
+    <link rel="stylesheet" href="/css/common.css?v=07">
+    <link rel="stylesheet" href="/css/responsive.css?v=01">
 </head>
 
 <body class="<?= $page_name ?>">
@@ -56,8 +55,6 @@
     <div class="content-wraper menu-top-container">
         <div class="content">
             <nav class="menu-top">
-                <img class="menu-top-left" src="/img/menu-top-left.png" alt=""/>
-                <img class="menu-top-right" src="/img/menu-top-right.png" alt=""/>
                 <ul>
                     <li><a href="/">Главная</a></li>
                        <li><a href="/about">О себе</a></li>
@@ -78,78 +75,5 @@
         </div>
     </div>
 
-    <? if ( $page_name == 'index-page'){ ?>
-
-    <!--slider-->
-    <div class="content-wraper slider">
-        <div class="content">
-            <div class="index_slider">
-                <div class="owl-carousel">
-                    <div class="item item0">
-                        <img class="img-bg" src="/img/akciya4.jpg" alt=""/>
-                        <a href="/akcia"class="akciya-wraper">
-                            <div  class="akciya-container">
-                                <div class="title1">Выпускные вечера<br>от школьных до студенческих !!!</div>
-                                <div class="title2"></div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="item item1">
-                        <img class="img-bg" src="/img/akciya3.jpg" alt=""/>
-                        <a href="/contact"class="akciya-wraper">
-                            <div  class="akciya-container">
-                                <div class="title1">Проводится весенняя акция!</div>
-                                <div class="title2">Скидки в честь майских праздников.<br> Устройте себе праздник вместе с нами!</div>
-<!--                                <p>Спешим предложить поздравительные минипрограммы<br> к празднику (продолжительностью от 30 минут)</p>-->
-                            </div>
-                        </a>
-                    </div>
-                    <div class="item item2">
-                        <img class="img-bg" src="/img/akciya2.jpg" alt=""/>
-                        <a href="/contact"class="akciya-wraper">
-                            <div  class="akciya-container">
-                                <div class="title1">Проводится весенняя акция!</div>
-                                <div class="title2">Скидки в честь майских праздников.<br> Устройте себе праздник вместе с нами!</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--index-block-->
-    <div class="content-wraper index-block" data-key="animated-block-index">
-        <div class="content">
-            <div class="clearfix">
-                <div class="spisok-uslug clearfix">
-                    <h2>Услуги ведущего</h2>
-                    <ul class="style1 one">
-                        <li class="animated">Свадьбы</li>
-                        <li class="animated">Дни рождения и юбилеи</li>
-                        <li class="animated">Корпоративные вечера</li>
-                        <li class="animated">Детские мероприятия</li>
-                    </ul>
-                    <ul class="style1 two">
-                        <li class="animated">Вечеринки</li>
-                        <li class="animated">Новогодние праздники</li>
-                        <li class="animated">День защитника Отечества</li>
-                        <li class="animated">Международный Женский день</li>
-                    </ul>
-                </div>
-                <div class="zakaz-block animated">
-                    <h2>Вам нужен тамада или ведущий на праздник?</h2>
-                    <a href="/contact"class="button open-popup">Организовать праздник !!!</a>
-                </div>
-                <div class="block1-bg"></div>
-            </div>
-        </div>
-    </div>
-
-    <?php } ?>
-
     <!--content-->
-    <div class="content-wraper">
-        <div class="content">
-            <div class="content-hidden">
-                <div class="overflower rightfloating">
+    <div class="content-wraper content-center">

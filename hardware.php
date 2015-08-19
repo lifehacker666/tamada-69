@@ -6,8 +6,7 @@
     include "templates/header.php";
 ?>
 
-<!--center-block-->
-<div class="floatblock center-full">
+<div class="content">
    <h1>Аппаратура для организации праздника</h1>
     <div class="divider"></div>
    <div class="table-block" data-key="animated-block-table">

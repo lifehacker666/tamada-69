@@ -5,8 +5,7 @@
     include "templates/header.php";
 ?>
 
-<!--center-block-->
-<div class="floatblock center-full">
+<div class="content">
     <h1>Отзывы клиентов о деятельности тамады и ведущего праздников</h1>
     <div class="divider"></div>
     <div class="faq block">

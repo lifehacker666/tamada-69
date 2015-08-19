@@ -5,8 +5,7 @@
     include "templates/header.php";
 ?>
 
-<!--center-block-->
-<div class="floatblock center-full">
+<div class="content">
     <h1>Дополнительная информация о тамаде и ведущем на праздник</h1>
     <div class="divider"></div>
     <div class="catalog podrazdeli">
@@ -25,7 +24,6 @@
             </a>
         </div>
     </div>
-
 </div>
 
 <? include "templates/footer.php"; ?>

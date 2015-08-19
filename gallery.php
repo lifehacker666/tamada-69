@@ -5,8 +5,7 @@
     include "templates/header.php";
 ?>
 
-<!--center-block-->
-<div class="floatblock center-full">
+<div class="content">
     <h1>Свадебные фото</h1>
     <div class="divider"></div>
    <div class="catalog block">

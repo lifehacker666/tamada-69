@@ -6,8 +6,7 @@
     include "templates/header.php";
 ?>
 
-<!--center-block-->
-<div class="floatblock center-full">
+<div class="content">
    <h1>Страница не найдена</h1>
     Страница, которую Вы ищете куда-то пропала!<br>
     Но это не беда! Значит вместо нее появилась какая-то новая страничка.

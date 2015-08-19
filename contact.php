@@ -5,8 +5,7 @@
     include "templates/header.php";
 ?>
 
-<!--center-block-->
-<div class="floatblock center-full clearfix contact-block" data-key="animated-block-contact" itemscope itemtype='http://schema.org/LocalBusiness'>
+<div class="content clearfix contact-block" data-key="animated-block-contact" itemscope itemtype='http://schema.org/LocalBusiness'>
     <meta itemprop='name' content='Тамада на свадьбу и ведущий на праздник в Твери и Тверской области - Виктор'>
     <span itemprop='address' itemscope itemtype='http://schema.org/PostalAddress'>
         <meta itemprop='addressLocality' content='Тверь'>

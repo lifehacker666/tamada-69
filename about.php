@@ -5,8 +5,7 @@
     include "templates/header.php";
 ?>
 
-<!--center-block-->
-<div class="floatblock center-full clearfix contact-block" data-key="animated-block-contact">
+<div class="content clearfix contact-block" data-key="animated-block-contact">
     <h1>Информация о тамаде</h1>
     <div class="divider"></div>
     <img class="chick1" src="/img/chick1.png" alt=""/>

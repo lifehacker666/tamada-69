@@ -1,45 +1,47 @@
-                       <div class="clear"></div>
-                   </div>
-               </div>
-           </div>
+    </div>
+    <div class="hFooter"></div>
+</div>
+
+<!--footer-->
+<footer data-key="animated-block-footer">
+   <div class="content clearfix">
+       <div class="socials animated">
+           <a class="item vk" title="Вконтакте" href="http://vk.com/tamada_tver69" target="_blank"></a>
+           <a class="item ok" title="Одноклассники" href="http://www.odnoklassniki.ru/group/52459577737299" target="_blank"></a>
+           <a class="item fb" title="Facebook" href="https://www.facebook.com/profile.php?id=100009622655963" target="_blank"></a>
+           <a class="item tw" title="Twitter" href="https://twitter.com/TamadaVictor" target="_blank"></a>
        </div>
-       <div class="hFooter"></div>
+       <div class="phone animated">+7-960-715-82-65</div>
+       <div class="counter">
+           <!-- Yandex.Metrika informer -->
+           <a href="https://metrika.yandex.ru/stat/?id=28213521&amp;from=informer"
+              target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/28213521/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
+                                                  style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:28213521,lang:'ru'});return false}catch(e){}"/></a>
+           <!-- /Yandex.Metrika informer -->
+       </div>
+       <div class="copyright animated">© <? echo date('Y') ?></div>
    </div>
+</footer>
 
-   <!--footer-->
-   <footer data-key="animated-block-footer">
-       <div class="content clearfix">
-           <div class="footer-line"></div>
-           <div class="socials animated">
-               <a class="item vk" title="Вконтакте" href="http://vk.com/tamada_tver69" target="_blank"></a>
-               <a class="item ok" title="Одноклассники" href="http://www.odnoklassniki.ru/group/52459577737299" target="_blank"></a>
-               <a class="item fb" title="Facebook" href="https://www.facebook.com/profile.php?id=100009622655963" target="_blank"></a>
-               <a class="item tw" title="Twitter" href="https://twitter.com/TamadaVictor" target="_blank"></a>
-           </div>
-           <div class="phone animated">+7-960-715-82-65</div>
-           <div class="counter">
-               <!-- Yandex.Metrika informer -->
-               <a href="https://metrika.yandex.ru/stat/?id=28213521&amp;from=informer"
-                  target="_blank" rel="nofollow"><img src="//bs.yandex.ru/informer/28213521/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
-                                                      style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:28213521,lang:'ru'});return false}catch(e){}"/></a>
-               <!-- /Yandex.Metrika informer -->
-           </div>
-           <div class="copyright animated">© 2015</div>
-       </div>
-   </footer>
+<!--preloader-->
+<div class="page-preloader"><span class="spinner"></span></div>
 
-<script src="/js/lib/waypoints.min.js"></script>
-<script src="/js/lib/waypoints-sticky.min.js"></script>
-<script src="/js/lib/modernizr.custom.js"></script>
-
+<!-- scripts -->
+<!--[if lt IE 9]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/shortcuts/sticky-elements/waypoints-sticky.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.4/jquery.slicknav.min.js"></script>
 <? if ( $page_name == 'index-page'){ ?>
-    <script src="/js/lib/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 <? } ?>
+<script src="/js/app/common.js?v=04"></script>
+<script src="/js/app/animations.js?v=01"></script>
+<!-- /scripts -->
 
-<script src="/js/app/common.js?v=03"></script>
-
-
-
+<!-- Google Analytics -->
 <script>
    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -48,8 +50,8 @@
 
    ga('create', 'UA-56191719-1', 'auto');
    ga('send', 'pageview');
-
 </script>
+<!-- /Google Analytics -->
 
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
